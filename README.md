@@ -14,9 +14,9 @@ An [R] package to perform sentiment analysis
 	
 ## Sentiment analysis on twitteR data:
 
-if(require(twitter)){
-	library(twitteR)
-	tweets  <- searchTwitter("#mcdonalds", n=25)
-	sentiment(tweets[[1]])
-	sapply(tweets, sentiment)
-}
+	if(require(twitter)){
+		library(twitteR)
+		tweets  <- searchTwitter("#mcdonalds", n=25)
+		sentiment(tweets[[1]])
+		sapply(tweets, sentiment)
+	}
