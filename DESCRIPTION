@@ -1,0 +1,18 @@
+Package: sentiment
+Maintainer: Andrie de Vries <apdevries@gmail.com>
+License: GPL (>=2)
+Title: Performs sentiment analysis
+LazyData: true
+LazyLoad: true
+Author: Andrie de Vries <apdevries@gmail.com>
+Description: Performs sentiment analysis
+Author@R: person("Andrie", "de Vries",
+    email="apdevries@gmail.com")
+Version: 0.0-01
+URL: 
+Date: 2012-06-24
+Collate:
+    'sentiment.R'
+    'sentiment-package.R'
+Suggests:
+    twitteR
