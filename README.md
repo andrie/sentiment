@@ -8,7 +8,7 @@ An [R] package to perform sentiment analysis
 	library("devtools")
 	install_github("andrie", "sentiment")
 
-## Sentiment analysis on string:
+## Sentiment analysis on strings:
 
 	sentiment(c("There is a terrible mistake in this work", "This is wonderful!"))
 	
