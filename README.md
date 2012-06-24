@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # sentiment
 
 An [R] package to perform sentiment analysis
@@ -20,10 +19,4 @@ if(require(twitter)){
 	tweets  <- searchTwitter("#mcdonalds", n=25)
 	sentiment(tweets[[1]])
 	sapply(tweets, sentiment)
-}	
-=======
-sentiment
-=========
-
-[R] package to perform sentiment analysis
->>>>>>> 73e6d06f37a76961ca40bf1fb790b6fed6a403a2
+}
