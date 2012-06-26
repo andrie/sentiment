@@ -1,0 +1,8 @@
+sentiment 0.0-01 (2012-06-24)
+--------------
+
+First experimental release to Github
+
+New functionality:
+
+* exports function sentiment() to perform sentiment analysis. Contains methods .default and .status (twitteR object)
