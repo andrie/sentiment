@@ -1,6 +1,6 @@
 # sentiment
 
-An [R] package to perform sentiment analysis
+An [R] package to perform (naive) sentiment analysis by scoring individual words, based on the affinity score defined by [AFINN] (http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010)
 
 ## Install package from github
 
