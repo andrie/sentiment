@@ -6,7 +6,7 @@ An [R] package to perform sentiment analysis
 
 	install.packages("devtools")
 	library("devtools")
-	install_github("andrie", "sentiment")
+	install_github("sentiment", "andrie")
 
 ## Sentiment analysis on strings:
 
